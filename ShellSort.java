@@ -5,7 +5,6 @@ import java.util.Arrays;
 public class ShellSort {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[] arr = {52, 896, 546, 23, 46, 853};
 		shell(arr);
 		System.out.println(Arrays.toString(arr));
