@@ -3,9 +3,8 @@ package sort;
 import java.util.Arrays;
 
 public class BubbleSort {
-	int[] arr;
-	int temp;
-	boolean flag;
+	private int temp;
+	private boolean flag;
 
 	public BubbleSort() {
 		super();
@@ -22,7 +21,6 @@ public class BubbleSort {
 	}
 	
 	public void sort(int[] arr) {
-		this.arr = arr;
 		for (int i = 1; i < arr.length; i++) {
 			for (int j = 0; j < arr.length - i; j++) {
 				if (arr[j] > arr[j + 1]) {
